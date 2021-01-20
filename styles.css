@@ -7,17 +7,17 @@ body {
 
 #snake-board {
     box-sizing: border-box;
-    height: 555px;
-    width: 555px;
+    height: 506px;
+    width: 506px;
     background-color: black;
     padding: 3px;
     display: grid;
     grid-template-rows: repeat(50, 10px);
-    grid-gap: 1px
+    /* grid-gap: 1px */
 }
 
 #snake-board > div {
     display: grid;
     grid-template-columns: repeat(50, 10px);
-    grid-gap: 1px
+    /* grid-gap: 1px */
 }
